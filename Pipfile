@@ -1,0 +1,21 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+django = "*"
+dj-rest-auth = "*"
+requests = "*"
+djangorestframework = "*"
+python-dotenv = "*"
+django-cors-headers = "*"
+django-allauth = "*"
+whitenoise = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+channels = "*"
+channels_redis = "*"
+
+[requires]
+python_version = "3.7"
